@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pokemon Champions Battle Facts"
+  short_description: "Ground VGC research in verified battle facts"
+  default_prompt: "Use $pokemon-champions-battle-facts to verify type matchups, Pokemon stats, learnsets, and damage claims before analyzing a VGC matchup."

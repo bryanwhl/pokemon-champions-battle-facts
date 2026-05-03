@@ -1,0 +1,23 @@
+{
+  "gen": 9,
+  "attacker": {
+    "species": "Incineroar",
+    "level": 50,
+    "ability": "Intimidate",
+    "item": "Safety Goggles",
+    "nature": "Adamant",
+    "evs": { "hp": 252, "atk": 116, "def": 4, "spa": 0, "spd": 76, "spe": 60 },
+    "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31 }
+  },
+  "defender": {
+    "species": "Rillaboom",
+    "level": 50,
+    "ability": "Grassy Surge",
+    "item": "Assault Vest",
+    "nature": "Adamant",
+    "evs": { "hp": 252, "atk": 116, "def": 4, "spa": 0, "spd": 76, "spe": 60 },
+    "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31 }
+  },
+  "move": { "name": "Flare Blitz" },
+  "field": { "gameType": "Doubles" }
+}

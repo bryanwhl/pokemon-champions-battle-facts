@@ -1,0 +1,15 @@
+{
+  "name": "pokemon-champions-battle-facts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent Skill resources for verified Pokemon Champions and VGC battle facts.",
+  "scripts": {
+    "test:type": "python scripts/type_matchup.py --attack fire --defend grass steel",
+    "test:pokemon": "python scripts/pokeapi_lookup.py pokemon incineroar",
+    "test:damage": "node scripts/damage_calc.mjs examples/damage-request.json"
+  },
+  "dependencies": {
+    "@smogon/calc": "^0.10.0"
+  }
+}
